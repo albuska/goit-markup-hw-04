@@ -61,6 +61,11 @@ p {
   color: var(--accent-color);
 }
 
+.mail-icon {
+  color: var(--secondary-text-color);
+}
+
+
 .site-nav {
   display: flex;
   padding: 32px 0;
