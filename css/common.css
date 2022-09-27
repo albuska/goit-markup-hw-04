@@ -1,0 +1,145 @@
+/* :root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-bgc: #ffffff;
+  --secondary-bgc: #2f303a;
+  --logo-part-color: #000000;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--primary-bgc);
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--logo-part-color);
+  margin-right: 93px;
+}
+
+.logo-part {
+  color: var(--accent-color);
+}
+
+.site-nav {
+  display: flex;
+  padding: 32px 0;
+}
+
+.nav-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.nav-list:hover,
+.nav-list:focus {
+  color: var(--accent-color);
+}
+
+.nav-list.current {
+  color: var(--accent-color);
+}
+
+.site-nav > .item + .item {
+  margin-left: 50px;
+}
+
+.sive-nav-contact {
+  margin-left: auto;
+}
+
+.contacts {
+  color: var(--secondary-text-color);
+}
+
+
+.footer {
+  background-color: var(--secondary-bgc);
+  padding: 60px 0;
+}
+
+.logo-footer {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--logo-part-color);
+}
+
+.logo-footer-part {
+  color: var(--primary-bgc);
+}
+
+.main-address {
+  margin-top: 20px;
+}
+
+.address {
+  display: block;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-bgc);
+}
+
+.mail-tel {
+  margin-top: 9px;
+}
+
+.address:hover,
+.address:focus {
+  color: var(--accent-color);
+}
+
+.address-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.tel-footer {
+  display: inline-block;
+}
