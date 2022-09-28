@@ -15,32 +15,36 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.icon-antenna {
+  width: 0.9423828125em;
+}
+
 .icon-client1 {
-  width: 0.875em;
+  width: 1.7666015625em;
 }
 
 .icon-client2 {
-  width: 0.78125em;
+  width: 1.7666015625em;
 }
 
 .icon-client3 {
-  width: 1.0625em;
+  width: 1.7666015625em;
 }
 
 .icon-client4 {
-  width: 2.03125em;
+  width: 1.7666015625em;
 }
 
 .icon-client5 {
-  width: 1.34375em;
+  width: 1.7666015625em;
 }
 
 .icon-client6 {
-  width: 2.09375em;
+  width: 1.7666015625em;
 }
 
 .icon-mail {
-  width: 1.34375em;
+  width: 1.3330078125em;
 }
 
 .icon-tel {
