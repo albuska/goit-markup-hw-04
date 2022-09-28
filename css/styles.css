@@ -42,9 +42,13 @@ p {
   margin: 0 auto;
 }
 
+.header {
+  border: 1px solid #ECECEC;
+}
+
 .main-header {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 
 }
 
@@ -336,7 +340,7 @@ p {
 }
 
 .logo-footer {
-  display: inline-block;
+  display: block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -402,7 +406,11 @@ color: var(--primary-bgc);
 fill: var(--primary-bgc);
 }
 
-.flex {
+.box-flex {
   display: flex;
-  margin-left: 516px;
+  align-items: baseline;
+}
+
+.support {
+  margin-left: 70px;
 }

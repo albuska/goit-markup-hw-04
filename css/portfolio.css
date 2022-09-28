@@ -42,10 +42,13 @@ p {
   margin: 0 auto;
 }
 
+.header {
+  border: 1px solid #ECECEC;
+}
+
 .main-header {
   display: flex;
-  align-items: center;
-
+  align-items: baseline;
 }
 
 .logo {
@@ -212,18 +215,34 @@ img {
 }
   
 
-
 .labeltag {
   text-transform: uppercase;
 }
 
+.icons-team-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #AFB1B8;
+}
+
+.icons-team-link:hover,
+.icons-team-link:focus {
+  background-color: var(--accent-color);
+  fill: var(--primary-bgc);
+}
+
 .footer {
+  display: flex;
   background-color: var(--secondary-bgc);
   padding: 60px 0;
 }
 
 .logo-footer {
-  display: inline-block;
+  display: block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -240,7 +259,7 @@ img {
 }
 
 .address {
-  display: block;
+  display: inline-block;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -249,6 +268,8 @@ img {
 }
 
 .mail-tel {
+  display: inline-block;
+  display: flex;
   margin-top: 9px;
 }
 
@@ -263,4 +284,35 @@ img {
 
 .tel-footer {
   display: inline-block;
+}
+
+.icons-team-list-footer {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+  }
+
+.footer-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+color: var(--primary-bgc);
+}
+
+.icons-team-link-footer {
+  background-color:  rgba(255, 255, 255, 0.1);;
+}
+
+.icons-footer {
+fill: var(--primary-bgc);
+}
+
+.box-flex {
+  display: flex;
+  align-items: baseline;
+}
+
+.support {
+  margin-left: 70px;
 }
