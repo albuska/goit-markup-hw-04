@@ -35,10 +35,6 @@ p {
   margin-bottom: 0;
 }
 
-.header {
-  border: 1px solid #ECECEC;
-}
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -49,6 +45,7 @@ p {
 .main-header {
   display: flex;
   align-items: center;
+
 }
 
 .logo {
@@ -92,6 +89,21 @@ p {
 
 .sive-nav-contact {
   margin-left: auto;
+}
+
+.list-item {
+  display: flex;
+}
+
+.icons-contact {
+  margin-right: 10px;
+  cursor: pointer;
+  fill: var(--secondary-text-color);
+}
+
+.icons-contact:hover,
+.icons-contact:focus {
+  fill: var(--accent-color);
 }
 
 .contacts {

@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="./css/portfolio.css" />
   </head>
   <body>
-    <header class="header">
+    <header>
       <div class="container main-header">
             <a href="./index.html" lang="en" class="logo list link"
               ><span class="logo-part">Web</span>Studio</a
@@ -30,25 +30,31 @@
             <nav>
             <ul class="list link site-nav">
               <li class="item">
-                <a href="./index.html" class="list link nav-list">Студія</a>
+                <a href="./index.html" class="list link nav-list current">Студія</a>
               </li>
               <li class="item">
-                <a href="./portfolio.html" class="list link nav-list current">Портфоліо</a>
+                <a href="./portfolio.html" class="list link nav-list">Портфоліо</a>
               </li>
               <li class="item"><a href="#" class="list link nav-list">Контакти</a></li>
             </ul>
           </nav>
           <ul class="list link site-nav sive-nav-contact">
-            <li class="item">
-              <a
-                href="mailto:info@devstudio.com"
+            <li class="item list-item">
+              <a href="mailto:info@devstudio.com"
                 class="list link nav-list contacts"
-                >info@devstudio.com</a
+                > <svg class="icons-contact" width="16" height="12">
+                  <use href="./images/icomoon/icons.svg#icon-mail"></use>
+                </svg> 
+                info@devstudio.com</a
               >
             </li>
             <li class="item">
               <a href="tel:+380961111111" class="list link nav-list contacts"
-                >+38 096 111 11 11</a
+                >
+                <svg class="icons-contact" width="10" height="16">
+                  <use href="./images/icomoon/icons.svg#icon-tel"></use>
+                </svg>
+                +38 096 111 11 11</a
               >
             </li>
           </ul>

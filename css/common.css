@@ -91,6 +91,21 @@ p {
   margin-left: auto;
 }
 
+.list-item {
+  display: flex;
+}
+
+.icons-contact {
+  margin-right: 10px;
+  cursor: pointer;
+  fill: var(--secondary-text-color);
+}
+
+.icons-contact:hover,
+.icons-contact:focus {
+  fill: var(--accent-color);
+}
+
 .contacts {
   color: var(--secondary-text-color);
 }
