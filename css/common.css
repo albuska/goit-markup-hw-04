@@ -43,7 +43,7 @@ p {
 }
 
 .header {
-  border: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
 
 .main-header {
   display: flex;
@@ -104,12 +104,20 @@ p {
   fill: var(--secondary-text-color);
 }
 
-.icons-contact:hover,
-.icons-contact:focus {
-  fill: var(--accent-color);
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+
+.contacts:hover .icons-contact,
+.contacts:focus .icons-contact {
+  fill: currentColor;
 }
 
 .contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--secondary-text-color);
 }
 

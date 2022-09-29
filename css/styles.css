@@ -43,7 +43,7 @@ p {
 }
 
 .header {
-  border: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .main-header {
@@ -105,14 +105,23 @@ p {
   fill: var(--secondary-text-color);
 }
 
-.icons-contact:hover,
-.icons-contact:focus {
-  fill: var(--accent-color);
-}
-
 .contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--secondary-text-color);
 }
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+
+.contacts:hover .icons-contact,
+.contacts:focus .icons-contact {
+  fill: currentColor;
+}
+
 
 .hero {
   max-width: 1600px;
@@ -154,7 +163,7 @@ p {
   border-radius: 4px;
   cursor: pointer;
   padding: 10px 32px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .button:hover,
